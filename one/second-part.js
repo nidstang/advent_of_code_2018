@@ -12,7 +12,7 @@ const getStringFromFile = filePath => {
   }) 
 }
 
-const getArrayFromStringByToken = (string, token) => {
+const getArrayFromStringByToken = (string) => {
   return string.split(/\s+/)
 }
 
